@@ -21,7 +21,15 @@ body {
     background: linear-gradient(rgb(80, 190, 0), rgb(0, 110, 50));
     border: none;
     border-radius: 5px;
+    box-shadow: 0 5px 0 rgb(0, 55, 25);
     margin: 20px;
     padding: 15px;
     width: 14rem;
+    position: relative;
+}
+
+.button:active {
+    background: linear-gradient(rgb(105, 215, 0), rgb(0, 135, 75));
+    box-shadow: 0 2px 0 rgb(0, 55, 25);
+    top: 3px;
 }
